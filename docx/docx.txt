@@ -1,0 +1,81 @@
+Hello, Gautam
+
+follow your Practical task
+
+Employees Management
+---------------------
+- Basic Admin Login.
+- Use the first user with the email "admin@admin.com" & password "password".
+- Login
+
+- Department module.
+- Department DB table consists of these fields: department
+name(required), status
+
+- Designation module.
+- Designation DB table consists of these fields: Designation
+name(required), status
+
+
+- CRUD Functionality (Create / Read / Update / Delete) for Employees.
+- Employees DB table consists of these fields: First Name, Last Name,
+Birth Date, Mobile, Email, Password, Gender, Salary, Joining Date,
+Images, Passport Document, Passport Number, Department, Designation.
+
+- Setup API using Passport
+     Employee Login
+     Department Listing With Pagination
+     Designation Listing With Pagination
+     Employees Listing With Pagination and Search
+
+
+
+Laravel developers then follow the below points
+-----------------------------------------------------------
+Use Seeder Following Module
+Admin
+Designation
+Department
+
+Use database migrations to create that schema above
+Add Designation, Department  Column in employees table with Relationship
+after Creating employees table  Migration
+Store image in storage/app/public folder and make them accessible from
+public
+Use Laravel's validation function, using Request classes also add
+Client-side validation
+Use Yajra Datatable for event Listing
+
+If any query related to Practical task call on +91 8000260025
+
+--
+Thanks & Regards,
+Vipul Mangukiya
+
+Software Engineer
++91 8000260025
+
+Elaunch Solution Pvt. Ltd
+p: (+91) 99046 45050
+a: A/301,RJD Gajera Business Hub,
+    Nagina Vadi Rd,
+    New Pushpakunj Society,
+    Katargam, Surat, Gujarat 395004
+
+w: www.elaunchinfotech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

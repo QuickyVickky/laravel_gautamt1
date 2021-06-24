@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "4aa23bbc-e7fa-464c-be04-b0c327757d88",
+		"name": "testt1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/gautamt1/public/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "abcd@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin@123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/gautamt1/public/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gautamt1",
+						"public",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "department-list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5M2EwNzAzNi1jMzczLTRjZWUtOTFhZC0wZjY3YjMwMTZhNGEiLCJqdGkiOiIxMjlmMmE2NTZkMDEyMDRkZjU2OTUyN2EyZDIyMDkxMmYwZTAzMTg3NzU1ODhlNGE2MTIyZTY4Y2UzNjAwNTZhOTkwMjZiMmU5NWFlMGRiYSIsImlhdCI6MTYyMzE3NTQ3MC40NTE2MTgsIm5iZiI6MTYyMzE3NTQ3MC40NTE2MjQsImV4cCI6MTYzMTEyNDI2OS45Mzc4ODcsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.B_xYCYUKLmA9x8PQYosJAAiJGUYIBcNSRMs6L36dQYQLKE7blZUQnZCQl4rOtf2ejtxvOjNNqD4ehSaaKgM5x_vf2UorWgY612zpk7XKRw6hTZ0hPc8AL_j6uIRE3N72aS5K3HgtmmPSLlWcHKxi69SoDU-kkjPq1Alj7Ju2ASkAm0LAdPdozTb5_fxToY0O3eLDg0MskIIDLd-hDHPk501m6k0IU4AveOKmC9wzdI8d6SbZu9P3rTjVL6yp8LiQFyHdpxFFPW5OhtVLkYxdcPND5NC3vwaF1XmjVx93QkI8OJ22bC28DheLNmcRZb_acF9nqUx54UYdqqAWL-o0tRZhKjQ6gyWHfG1xFCMYHPOAu8oYkysOCpeuFUwR2H_12_PRWXp_B-QrTOa8LXpsZ1myn5PghCLFEyFM_Z7cpnxfbRWLdW8tZqO4fbb9R0kyPYNl7bGQ5ILAta4HgeAch86TpPnwdK0Rj5KrSZtgSVwJ1VhQ0Z08OfDuWRiH9gw-FcbJZ3zehCI_ERWY0mDNEZU7wYVNAR1GcQ35k58ul60EMlVNe714ptLTxM2Adxp6dbBWlekBBOMCkWxBi6bZ34Yq2gWw5WKlYKw6eu4ObbeOg3iW3-3zbjVVK7cNa2TK3KOT04GYL59R6AYzIgVHjQWBbTvDT0mENIMQCZh0F2k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost/gautamt1/public/api/department-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gautamt1",
+						"public",
+						"api",
+						"department-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "designation-list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5M2EwNzAzNi1jMzczLTRjZWUtOTFhZC0wZjY3YjMwMTZhNGEiLCJqdGkiOiIxMjlmMmE2NTZkMDEyMDRkZjU2OTUyN2EyZDIyMDkxMmYwZTAzMTg3NzU1ODhlNGE2MTIyZTY4Y2UzNjAwNTZhOTkwMjZiMmU5NWFlMGRiYSIsImlhdCI6MTYyMzE3NTQ3MC40NTE2MTgsIm5iZiI6MTYyMzE3NTQ3MC40NTE2MjQsImV4cCI6MTYzMTEyNDI2OS45Mzc4ODcsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.B_xYCYUKLmA9x8PQYosJAAiJGUYIBcNSRMs6L36dQYQLKE7blZUQnZCQl4rOtf2ejtxvOjNNqD4ehSaaKgM5x_vf2UorWgY612zpk7XKRw6hTZ0hPc8AL_j6uIRE3N72aS5K3HgtmmPSLlWcHKxi69SoDU-kkjPq1Alj7Ju2ASkAm0LAdPdozTb5_fxToY0O3eLDg0MskIIDLd-hDHPk501m6k0IU4AveOKmC9wzdI8d6SbZu9P3rTjVL6yp8LiQFyHdpxFFPW5OhtVLkYxdcPND5NC3vwaF1XmjVx93QkI8OJ22bC28DheLNmcRZb_acF9nqUx54UYdqqAWL-o0tRZhKjQ6gyWHfG1xFCMYHPOAu8oYkysOCpeuFUwR2H_12_PRWXp_B-QrTOa8LXpsZ1myn5PghCLFEyFM_Z7cpnxfbRWLdW8tZqO4fbb9R0kyPYNl7bGQ5ILAta4HgeAch86TpPnwdK0Rj5KrSZtgSVwJ1VhQ0Z08OfDuWRiH9gw-FcbJZ3zehCI_ERWY0mDNEZU7wYVNAR1GcQ35k58ul60EMlVNe714ptLTxM2Adxp6dbBWlekBBOMCkWxBi6bZ34Yq2gWw5WKlYKw6eu4ObbeOg3iW3-3zbjVVK7cNa2TK3KOT04GYL59R6AYzIgVHjQWBbTvDT0mENIMQCZh0F2k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost/gautamt1/public/api/designation-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gautamt1",
+						"public",
+						"api",
+						"designation-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employee-list",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5M2EwNzAzNi1jMzczLTRjZWUtOTFhZC0wZjY3YjMwMTZhNGEiLCJqdGkiOiIxMjlmMmE2NTZkMDEyMDRkZjU2OTUyN2EyZDIyMDkxMmYwZTAzMTg3NzU1ODhlNGE2MTIyZTY4Y2UzNjAwNTZhOTkwMjZiMmU5NWFlMGRiYSIsImlhdCI6MTYyMzE3NTQ3MC40NTE2MTgsIm5iZiI6MTYyMzE3NTQ3MC40NTE2MjQsImV4cCI6MTYzMTEyNDI2OS45Mzc4ODcsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.B_xYCYUKLmA9x8PQYosJAAiJGUYIBcNSRMs6L36dQYQLKE7blZUQnZCQl4rOtf2ejtxvOjNNqD4ehSaaKgM5x_vf2UorWgY612zpk7XKRw6hTZ0hPc8AL_j6uIRE3N72aS5K3HgtmmPSLlWcHKxi69SoDU-kkjPq1Alj7Ju2ASkAm0LAdPdozTb5_fxToY0O3eLDg0MskIIDLd-hDHPk501m6k0IU4AveOKmC9wzdI8d6SbZu9P3rTjVL6yp8LiQFyHdpxFFPW5OhtVLkYxdcPND5NC3vwaF1XmjVx93QkI8OJ22bC28DheLNmcRZb_acF9nqUx54UYdqqAWL-o0tRZhKjQ6gyWHfG1xFCMYHPOAu8oYkysOCpeuFUwR2H_12_PRWXp_B-QrTOa8LXpsZ1myn5PghCLFEyFM_Z7cpnxfbRWLdW8tZqO4fbb9R0kyPYNl7bGQ5ILAta4HgeAch86TpPnwdK0Rj5KrSZtgSVwJ1VhQ0Z08OfDuWRiH9gw-FcbJZ3zehCI_ERWY0mDNEZU7wYVNAR1GcQ35k58ul60EMlVNe714ptLTxM2Adxp6dbBWlekBBOMCkWxBi6bZ34Yq2gWw5WKlYKw6eu4ObbeOg3iW3-3zbjVVK7cNa2TK3KOT04GYL59R6AYzIgVHjQWBbTvDT0mENIMQCZh0F2k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "search",
+							"value": "admin@admin.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/gautamt1/public/api/employee-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gautamt1",
+						"public",
+						"api",
+						"employee-list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
